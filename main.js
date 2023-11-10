@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // Membuat elemen article untuk buku
       const bookArticle = document.createElement('article');
       bookArticle.classList.add('book_item');
+      bookArticle.style.backgroundColor = 'white';
   
       // Membuat elemen h3 untuk judul buku dan menambahkan teks
       const bookTitle = document.createElement('h3');
